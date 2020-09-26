@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+</head>
+<body>
+<div id="container">
+    
+    <div class="name">
+        <div id="tien">Tiến</div>
+        <div id="le">Lê</div>
+        <div id="ba">Bá</div>
+    </div>
+
+    <div id="fakecontainer"></div>
+    
+    <h1 class="header" id="projects">projects</h1>
+    <h1 class="header" id="projects2">projects</h1>
+    <h1 class="header" id="contact">contact</h1>
+    <h1 class="header" id="contact2">contact</h1>
+    <h1 class="header" id="archives">archives</h1>
+    <h1 class="header" id="archives2">archives</h1>
+<!-- 
+    <div id="circle"></div> -->
+    <div id="circle2"></div>
+    <h1 id="hi2"> Hi, I like taking pictures </h1>
+    <h2 id="email">E: tienleba03@gmail.com</h2>
+    <img id="contactava" src="img/contact.png" alt="">
+    <h1 id="shortname"> Tiến Lê Bá </h1>
+
+    <div class="ellipse" id="ellipse1"></div>
+    <div class="ellipse" id="ellipse2"></div>
+    <div class="ellipse" id="ellipse3"></div>
+    
+    <div class="rectangles" id="rectangleapc"></div>
+    <div class="rectangles" id="rectangleagt"></div>
+    <div class="rectangles" id="rectanglefilm"></div>
+    <div class="rectangles" id="rectangleglams"></div>
+    <div class="rectangles" id="rectangleothers"></div>
+    
+    <div class="container2">
+    <h1 class="projectsname" id="apc"> Ams Photography Club </h1>
+    <h1 class="projectsname" id="agt"> Ams' Got Talent XII </h1>
+    <h1 class="projectsname" id="film"> 35mm </h1>
+    <h1 class="projectsname" id="glams"> G'LAMS 2020</h1>
+    <h1 class="projectsname" id="others"> Others </h1>
+    </div> 
+
+    <div id="filmscroll">
+        <div class="slider-container">
+            <div class="slider-items" id="si1"><img class="sliderimg" src="img/film/1.jpg" alt=""></div>
+            <div class="slider-items" id="si2"><img class="sliderimg" src="img/film/2.jpg" alt=""></div>
+            <div class="slider-items" id="si3"><img class="sliderimg" src="img/film/3.jpg" alt=""></div>
+            <div class="slider-items" id="si4"><img class="sliderimg" src="img/film/4.jpg" alt=""></div>
+            <div class="slider-items" id="si5"><img class="sliderimg" src="img/film/5.jpg" alt=""></div>
+            <div class="slider-items" id="si6"><img class="sliderimg" src="img/film/6.jpg" alt=""></div>
+            <div class="slider-items" id="si7"><img class="sliderimg" src="img/film/7.jpg" alt=""></div>
+            <div class="slider-items" id="si8"><img class="sliderimg" src="img/film/8.jpg" alt=""></div>
+            <div class="slider-items" id="si9"><img class="sliderimg" src="img/film/9.jpg" alt=""></div>
+            <div class="slider-items" id="si10"><img class="sliderimg" src="img/film/10.jpg" alt=""></div>
+            <div class="slider-items" id="si11"><img class="sliderimg" src="img/film/11.jpg" alt=""></div>
+            <div class="slider-items" id="si12"><img class="sliderimg" src="img/film/12.jpg" alt=""></div>
+            <div class="slider-items" id="si13"><img class="sliderimg" src="img/film/13.jpg" alt=""></div>
+            <div class="slider-items" id="si14"><img class="sliderimg" src="img/film/14.jpg" alt=""></div>
+            <div class="slider-items" id="si15"><img class="sliderimg" src="img/film/15.jpg" alt=""></div>
+            <div class="slider-items" id="si16"><img class="sliderimg" src="img/film/16.jpg" alt=""></div>
+            <div class="slider-items" id="si17"><img class="sliderimg" src="img/film/17.jpg" alt=""></div>
+            <div class="slider-items" id="si18"><img class="sliderimg" src="img/film/18.jpg" alt=""></div>
+            <div class="slider-items" id="si19"><img class="sliderimg" src="img/film/19.jpg" alt=""></div>
+            <div class="slider-items" id="si20"><img class="sliderimg" src="img/film/20.jpg" alt=""></div>
+            <div class="slider-items" id="si21"><img class="sliderimg" src="img/film/21.jpg" alt=""></div>
+            <div class="slider-items" id="si22"><img class="sliderimg" src="img/film/22.jpg" alt=""></div>
+            <div class="slider-items" id="si23"><img class="sliderimg" src="img/film/23.jpg" alt=""></div>
+            <div class="slider-items" id="si24"><img class="sliderimg" src="img/film/24.jpg" alt=""></div>
+            <div class="slider-items" id="si25"><img class="sliderimg" src="img/film/25.jpg" alt=""></div>
+            <div class="slider-items" id="si26"><img class="sliderimg" src="img/film/26.jpg" alt=""></div>
+            <div class="slider-items" id="si27"><img class="sliderimg" src="img/film/27.jpg" alt=""></div>
+            <div class="slider-items" id="si28"><img class="sliderimg" src="img/film/28.jpg" alt=""></div>
+            <div class="slider-items" id="si29"><img class="sliderimg" src="img/film/29.jpg" alt=""></div>
+            <div class="slider-items" id="si30"><img class="sliderimg" src="img/film/30.jpg" alt=""></div>
+            <div class="slider-items" id="si31"><img class="sliderimg" src="img/film/31.jpg" alt=""></div>
+            <div class="slider-items" id="si32"><img class="sliderimg" src="img/film/32.jpg" alt=""></div>
+            <div class="slider-items" id="si33"><img class="sliderimg" src="img/film/33.jpg" alt=""></div>
+            <div class="slider-items" id="si34"><img class="sliderimg" src="img/film/34.jpg" alt=""></div>
+            <div class="slider-items" id="si35"><img class="sliderimg" src="img/film/35.jpg" alt=""></div>
+            <div class="slider-items" id="si36"><img class="sliderimg" src="img/film/36.jpg" alt=""></div>
+            <div class="slider-items" id="si37"><img class="sliderimg" src="img/film/37.jpg" alt=""></div>
+            <div class="slider-items" id="si38"><img class="sliderimg" src="img/film/38.jpg" alt=""></div>
+            <div class="slider-items" id="si39"><img class="sliderimg" src="img/film/39.jpg" alt=""></div>
+            <div class="slider-items" id="si40"><img class="sliderimg" src="img/film/40.jpg" alt=""></div>
+            <div class="slider-items" id="si41"><img class="sliderimg" src="img/film/41.jpg" alt=""></div>
+            <div class="slider-items" id="si42"><img class="sliderimg" src="img/film/42.jpg" alt=""></div>
+            <div class="slider-items" id="si43"><img class="sliderimg" src="img/film/43.jpg" alt=""></div>
+            <div class="slider-items" id="si44"><img class="sliderimg" src="img/film/44.jpg" alt=""></div>
+            <div class="slider-items" id="si45"><img class="sliderimg" src="img/film/45.jpg" alt=""></div>
+            <div class="slider-items" id="si46"><img class="sliderimg" src="img/film/46.jpg" alt=""></div>
+            <div class="slider-items" id="si47"><img class="sliderimg" src="img/film/47.jpg" alt=""></div>
+            <div class="slider-items" id="si48"><img class="sliderimg" src="img/film/48.jpg" alt=""></div>
+            <div class="slider-items" id="si49"><img class="sliderimg" src="img/film/49.jpg" alt=""></div>
+            <div class="slider-items" id="si50"><img class="sliderimg" src="img/film/50.jpg" alt=""></div>
+            <div class="slider-items" id="si51"><img class="sliderimg" src="img/film/51.jpg" alt=""></div>
+            <div class="slider-items" id="si52"><img class="sliderimg" src="img/film/52.jpg" alt=""></div>
+            <div class="slider-items" id="si53"><img class="sliderimg" src="img/film/53.jpg" alt=""></div>
+            <div class="slider-items" id="si54"><img class="sliderimg" src="img/film/54.jpg" alt=""></div>
+            <div class="slider-items" id="si55"><img class="sliderimg" src="img/film/55.jpg" alt=""></div>
+            <div class="slider-items" id="si56"><img class="sliderimg" src="img/film/56.jpg" alt=""></div>
+            <div class="slider-items" id="si56"><img class="sliderimg" src="img/film/57.jpg" alt=""></div>
+            <div class="slider-items" id="si58"><img class="sliderimg" src="img/film/58.jpg" alt=""></div>
+            <div class="slider-items" id="si59"><img class="sliderimg" src="img/film/59.jpg" alt=""></div>
+            <div class="slider-items" id="si60"><img class="sliderimg" src="img/film/60.jpg" alt=""></div>
+            <div class="slider-items" id="si61"><img class="sliderimg" src="img/film/61.jpg" alt=""></div>
+            <div class="slider-items" id="si62"><img class="sliderimg" src="img/film/62.jpg" alt=""></div>
+            <div class="slider-items" id="si63"><img class="sliderimg" src="img/film/63.jpg" alt=""></div>
+            <div class="slider-items" id="si64"><img class="sliderimg" src="img/film/64.jpg" alt=""></div>
+            <div class="slider-items" id="si65"><img class="sliderimg" src="img/film/65.jpg" alt=""></div>
+            <div class="slider-items" id="si66"><img class="sliderimg" src="img/film/66.jpg" alt=""></div>
+            <div class="slider-items" id="si67"><img class="sliderimg" src="img/film/67.jpg" alt=""></div>
+            <div class="slider-items" id="si68"><img class="sliderimg" src="img/film/68.jpg" alt=""></div>
+            <div class="slider-items" id="si69"><img class="sliderimg" src="img/film/69.jpg" alt=""></div>
+            <div class="slider-items" id="si70"><img class="sliderimg" src="img/film/70.jpg" alt=""></div>
+            <div class="slider-items" id="si71"><img class="sliderimg" src="img/film/71.jpg" alt=""></div>
+            <div class="slider-items" id="si72"><img class="sliderimg" src="img/film/72.jpg" alt=""></div>
+            <div class="slider-items" id="si73"><img class="sliderimg" src="img/film/73.jpg" alt=""></div>
+            <div class="slider-items" id="si74"><img class="sliderimg" src="img/film/74.jpg" alt=""></div>
+            <div class="slider-items" id="si75"><img class="sliderimg" src="img/film/75.jpg" alt=""></div>
+            <div class="slider-items" id="si76"><img class="sliderimg" src="img/film/76.jpg" alt=""></div>
+            <div class="slider-items" id="si77"><img class="sliderimg" src="img/film/77.jpg" alt=""></div>
+            <div class="slider-items" id="si78"><img class="sliderimg" src="img/film/78.jpg" alt=""></div>
+            <div class="slider-items" id="si79"><img class="sliderimg" src="img/film/79.jpg" alt=""></div>
+            <div class="slider-items" id="si80"><img class="sliderimg" src="img/film/80.jpg" alt=""></div>
+            <div class="slider-items" id="si81"><img class="sliderimg" src="img/film/81.jpg" alt=""></div>
+            <div class="slider-items" id="si82"><img class="sliderimg" src="img/film/82.jpg" alt=""></div>
+            <div class="slider-items" id="si83"><img class="sliderimg" src="img/film/83.jpg" alt=""></div>
+            <div class="slider-items" id="si84"><img class="sliderimg" src="img/film/84.jpg" alt=""></div>
+            <div class="slider-items" id="si85"><img class="sliderimg" src="img/film/85.jpg" alt=""></div>
+            <div class="slider-items" id="si86"><img class="sliderimg" src="img/film/86.jpg" alt=""></div>
+            <div class="slider-items" id="si87"><img class="sliderimg" src="img/film/87.jpg" alt=""></div>
+            <div class="slider-items" id="si88"><img class="sliderimg" src="img/film/88.jpg" alt=""></div>
+            <div class="slider-items" id="si89"><img class="sliderimg" src="img/film/89.jpg" alt=""></div>
+            <div class="slider-items" id="si90"><img class="sliderimg" src="img/film/90.jpg" alt=""></div>
+            <div class="slider-items" id="si91"><img class="sliderimg" src="img/film/91.jpg" alt=""></div>
+            <div class="slider-items" id="si92"><img class="sliderimg" src="img/film/92.jpg" alt=""></div>
+            <div class="slider-items" id="si93"><img class="sliderimg" src="img/film/93.jpg" alt=""></div>
+            <div class="slider-items" id="si94"><img class="sliderimg" src="img/film/94.jpg" alt=""></div>
+            <div class="slider-items" id="si95"><img class="sliderimg" src="img/film/95.jpg" alt=""></div>
+            <div class="slider-items" id="si96"><img class="sliderimg" src="img/film/96.jpg" alt=""></div>
+            <div class="slider-items" id="si97"><img class="sliderimg" src="img/film/97.jpg" alt=""></div>
+            <div class="slider-items" id="si98"><img class="sliderimg" src="img/film/98.jpg" alt=""></div>
+            <div class="slider-items" id="si99"><img class="sliderimg" src="img/film/99.jpg" alt=""></div>
+            <div class="slider-items" id="si100"><img class="sliderimg" src="img/film/100.jpg" alt=""></div>
+            <div class="slider-items" id="si101"><img class="sliderimg" src="img/film/101.jpg" alt=""></div>
+            <div class="slider-items" id="si102"><img class="sliderimg" src="img/film/102.jpg" alt=""></div>
+            <div class="slider-items" id="si103"><img class="sliderimg" src="img/film/103.jpg" alt=""></div>
+            <div class="slider-items" id="si104"><img class="sliderimg" src="img/film/104.jpg" alt=""></div>
+            <div class="slider-items" id="si105"><img class="sliderimg" src="img/film/105.jpg" alt=""></div>
+            <div class="slider-items" id="si106"><img class="sliderimg" src="img/film/106.jpg" alt=""></div>
+            <div class="slider-items" id="si107"><img class="sliderimg" src="img/film/107.jpg" alt=""></div>
+            <div class="slider-items" id="si108"><img class="sliderimg" src="img/film/108.jpg" alt=""></div>
+            <div class="slider-items" id="si109"><img class="sliderimg" src="img/film/109.jpg" alt=""></div>
+            <div class="slider-items" id="si110"><img class="sliderimg" src="img/film/110.jpg" alt=""></div>
+            <div class="slider-items" id="si111"><img class="sliderimg" src="img/film/111.jpg" alt=""></div>
+            <div class="slider-items" id="si112"><img class="sliderimg" src="img/film/112.jpg" alt=""></div>
+            <div class="slider-items" id="si113"><img class="sliderimg" src="img/film/113.jpg" alt=""></div>
+            <div class="slider-items" id="si114"><img class="sliderimg" src="img/film/114.jpg" alt=""></div>
+            <div class="slider-items" id="si115"><img class="sliderimg" src="img/film/115.jpg" alt=""></div>
+            <div class="slider-items" id="si116"><img class="sliderimg" src="img/film/116.jpg" alt=""></div>
+            <div class="slider-items" id="si117"><img class="sliderimg" src="img/film/117.jpg" alt=""></div>
+            <div class="slider-items" id="si118"><img class="sliderimg" src="img/film/118.jpg" alt=""></div>
+            <div class="slider-items" id="si119"><img class="sliderimg" src="img/film/119.jpg" alt=""></div>
+            <div class="slider-items" id="si120"><img class="sliderimg" src="img/film/120.jpg" alt=""></div>
+
+
+        </div>
+    </div>
+
+    </div>
+
+
+
+<svg id="hi" data-name="hi" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1696.8 224.21">
+<defs>
+<style>.cls-1{isolation:isolate;font-size:181.47px;fill:none;stroke:#fff;stroke-miterlimit:10;font-family:ViaodaLibre-Regular, Viaoda Libre;}.cls-2{letter-spacing:-0.02em;}
+</style>
+</defs>
+<title>portfolio-05</title>
+<text class="cls-1" transform="translate(0.5 158.38)"><tspan class="cls-2">Hi, my name is up there</tspan><tspan id="tspan" x="132.65" y="0"></tspan>
+</text>
+</svg>
+
+
+<script src="index.js"></script>  
+</body>
+</html>
