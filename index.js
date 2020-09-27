@@ -22,8 +22,8 @@ document.getElementById('circle2').addEventListener('mouseout', function(){
 
 document.getElementById('circle2').addEventListener('click', function(){
     TweenMax.to('#circle2', 1.5, { scale: 7, ease: Power3.easeOut})
-    TweenMax.to('#hi', 0.25, { opacity:0})
-    TweenMax.to('#hi', 0.25, { display:'none'})
+    TweenMax.to('#hi', 0.15, { opacity:0})
+    TweenMax.to('#hi', 0.15, { display:'none'})
     TweenMax.to('#container', 0, { delay: 0.5, backgroundColor:'black'})
     TweenMax.to('.name', 0, { delay: 2, display: 'none'})
     TweenMax.to('#projects', 0, { delay: 0.35, display:'none'})
@@ -48,8 +48,8 @@ document.getElementById('circle2').addEventListener('click', function(){
 
 document.getElementById('contact').addEventListener('click', function(){
     TweenMax.to('#circle2', 1.5, { scale: 7, ease: Power3.easeOut})
-    TweenMax.to('#hi', 0.25, { opacity:0})
-    TweenMax.to('#hi', 0.25, { display:'none'})
+    TweenMax.to('#hi', 0.15, { opacity:0})
+    TweenMax.to('#hi', 0.15, { display:'none'})
     TweenMax.to('#circle2', 0, { delay: 1, display:'none'})
     TweenMax.to('#container', 0, { delay: 0.5, backgroundColor:'black'})
     TweenMax.to('.name', 0, { delay: 2, display: 'none'})
@@ -93,6 +93,8 @@ document.getElementById('shortname').addEventListener('click', function(){
     TweenMax.to('.name', 1, {opacity:1})
     TweenMax.to('#circle2', 1, {opacity:1})
     TweenMax.to('#filmscroll', 0, {delay: .5, display:'none'})
+    TweenMax.to ('.apcprojects', 1, { opacity: 0})
+    TweenMax.to ('.apcprojects', 0, { delay: 1, display:'none'})
 
 })
 
@@ -139,8 +141,8 @@ document.getElementById('archives').addEventListener('mouseout', function(){
 
 document.getElementById('projects').addEventListener('click', function(){
     TweenMax.to('#circle2', 1.5, { scale: 7, ease: Power3.easeOut})
-    TweenMax.to('#hi', 0.5, { opacity:0})
-    TweenMax.to('#hi', 0.5, { display:'none'})
+    TweenMax.to('#hi', 0.15, { opacity:0})
+    TweenMax.to('#hi', 0.15, { display:'none'})
     TweenMax.to('#circle2', 0, { delay: 1, display:'none'})
     TweenMax.to('#container', 0, { delay: 0.5, backgroundColor:'black'})
     TweenMax.to('.name', 0, { delay: 1, display: 'none'})
@@ -164,6 +166,7 @@ document.getElementById('projects').addEventListener('click', function(){
     TweenMax.to('#rectangleglams', 0, {transformOrigin:'top' })
     TweenMax.to('#rectangleothers', 0, {transformOrigin:'top' })
     TweenMax.to('.slider-container', 0 ,{ delay: .25, display: 'none'})
+    TweenMax.to ('.apcprojects', 0, {delay: .5, display:'none'})
 })
 
 document.getElementById('apc').addEventListener('mouseover', function(){
@@ -232,26 +235,32 @@ document.getElementById('apc').addEventListener('click', function(){
     TweenMax.to('.rectangles', 0, {delay: .75, display:'none'})
     TweenMax.to('#container', 0, { delay: .75, backgroundColor:'white'})  
     TweenMax.to('#shortname', 0, {color: 'black'})
-    TweenMax.to('#apc', 1 ,{ display: 'none'})
+    TweenMax.to('#apc', 2 ,{ display: 'none'})
+    TweenMax.to('#apc', 1 ,{ opacity: 0})
     TweenMax.to('#agt', 1 ,{ display: 'none'})
     TweenMax.to('#glams', 1 ,{ display: 'none'})
     TweenMax.to('#film', 1 ,{ display: 'none'})
     TweenMax.to('#others', 1 ,{ display: 'none'})
+    TweenMax.to('#projects', 0, {delay: .25, display:'block'})
+    TweenMax.to('#projects2', 0, {delay: .25, display:'none'})
+    TweenMax.to ('.apcprojects', 0, {delay: .75, display:'block'})
+    TweenMax.to ('.apcprojects', 1, {delay: .75, opacity: 1})
 })
 document.getElementById('film').addEventListener('click', function(){
     TweenMax.to('#rectanglefilm', 1, {transformOrigin:'center' })
-    TweenMax.to('#rectanglefilm', 2, {scaleX: 6})
     TweenMax.to('#rectanglefilm', .5, {scaleY: 15})
     TweenMax.to('.rectangles', 0, {delay: .75, display:'none'})
-    TweenMax.to('#container', 0, { delay: .75, backgroundColor:'white'})  
+    TweenMax.to('#container', 0, { delay: .5, backgroundColor:'white'})  
     TweenMax.to('#shortname', 0, {color: 'black'})
     TweenMax.to('#apc', 1 ,{ display: 'none'})
-    TweenMax.to('#agt', 1 ,{ display: 'none'})
-    TweenMax.to('#glams', 1 ,{ display: 'none'})
-    TweenMax.to('#film', 1 ,{ display: 'none'})
-    TweenMax.to('#others', 1 ,{ display: 'none'})
-    TweenMax.to('.slider-container', 0 ,{ delay: 1.5, display: 'block'})
-    TweenMax.to('#filmscroll', 0, {delay: .5, display:'block'})
+    TweenMax.to('#agt', .5 ,{ display: 'none'})
+    TweenMax.to('#glams', .5 ,{ display: 'none'})
+    TweenMax.to('#film', .5 ,{ display: 'none'})
+    TweenMax.to('#others', .5 ,{ display: 'none'})
+    TweenMax.to('.slider-container', 0 ,{ delay: .35, display: 'block'})
+    TweenMax.to('#filmscroll', 0, {delay: .35, display:'block'})
+    TweenMax.to('#projects', 0, {delay: .25, display:'block'})
+    TweenMax.to('#projects2', 0, {delay: .25, display:'none'})
 
 })
 

@@ -656,8 +656,97 @@ html, body {
     justify-content: center;
 }
 
+.apcprojectsname{
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 100;
+    color: black;
+    cursor: pointer;
+    z-index: 1000;
+    /* display: none; */
+}
 
+#tan {
+    padding: 0;
+    margin: 0;
+    height: 30vh;
+    width: 28vw;
+    cursor: pointer;
+    position: absolute;
+    top: 20vh;
+    left: 2vw;
 
+}
+
+#cleansed {
+    padding: 0;
+    margin: 0;
+    height: 30vh;
+    width: 28vw;
+    cursor: pointer;
+    position: absolute;
+    top: 20vh;
+    left: 49vw;
+    transform: translateX(-50%);
+
+}
+#abysm {
+    padding: 0;
+    margin: 0;
+    height: 30vh;
+    width: 28vw;
+    cursor: pointer;
+    position: absolute;
+    top: 20vh;
+    right: 2vw
+
+}
+
+.apcprojectscover{
+    max-width: 28vw;
+    max-height: 30vh;
+}
+
+#sloth {
+    padding: 0;
+    margin: 0;
+    height: 30vh;
+    width: 28vw;
+    cursor: pointer;
+    position: absolute;
+    top: 60vh;
+    left: 2vw;
+}
+
+#office {
+    padding: 0;
+    margin: 0;
+    height: 30vh;
+    width: 28vw;
+    cursor: pointer;
+    position: absolute;
+    top: 60vh;
+    left: 40vw;
+
+}
+
+#homesick {
+    padding: 0;
+    margin: 0;
+    height: 60vh;
+    width: 28vw;
+    cursor: pointer;
+    position: absolute;
+    top: 60vh;
+    right: 2vw
+
+}
+
+.apcprojects {
+    display: none;
+    opacity: 0;
+}
 
 
 
