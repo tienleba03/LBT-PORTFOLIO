@@ -377,11 +377,11 @@ html, body {
 }
 
 #filmscroll {
-    height: 100vh;
+    height: 700vh;
     width: 100vw;
     margin: 0;
     padding: 0;
-    overflow: scroll;
+    display: none;
 }
 
 .slider-container{
@@ -390,6 +390,7 @@ html, body {
     margin: 0;
     padding: 0;
     display: none;
+    opacity: 0;
 }
 
 .slider-items {
@@ -727,8 +728,8 @@ html, body {
     cursor: pointer;
     position: absolute;
     top: 60vh;
-    left: 40vw;
-
+    left: 50vw;
+    transform: translateX(-50%);
 }
 
 #homesick {
@@ -746,6 +747,473 @@ html, body {
 .apcprojects {
     display: none;
     opacity: 0;
+}
+
+#tanname{
+    padding: 0;
+    margin: 0;
+    width: 4vw;
+    height: 5vh;
+}
+
+#slothname{
+    padding: 0;
+    margin: 0;
+    width: 6vw;
+    height: 5vh;
+}
+
+#cleansedname{
+    padding: 0;
+    margin: 0;
+    width: 9vw;
+    height: 5vh;
+}
+
+#theofficeplaygroundname{
+    padding: 0;
+    margin: 0;
+    width: 23vw;
+    height: 5vh;
+}
+
+#homesickname{
+    padding: 0;
+    margin: 0;
+    width: 10vw;
+    height: 5vh;
+}
+
+#abysmname{
+    padding: 0;
+    margin: 0;
+    width: 7vw;
+    height: 5vh;
+}
+
+#tanscroll{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 600vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow: scroll;
+    display: none;
+}
+
+#tanname2{
+    color: white;
+    font-size: 10em;
+    font-weight: 100;
+    position: absolute;
+    top: 10vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+#tanname3{
+    color: white;
+    font-size: 10em;
+    font-weight: 100;
+    position: absolute;
+    top: 10vh;
+    left: 50vw;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+#tandefinition{
+    color: white;
+    font-size: 2em;
+    font-weight: 100;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+#tan1 {
+    max-height:30vh;
+    max-width: 30vw;
+}
+
+.tan-slider-items {
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    width: 70vw;
+    background-color:transparent;
+}
+
+#tansi1{
+    position: absolute;
+    top: 100vh;
+    left: 50vw;
+    transform: translateX(-50%);
+
+}
+
+#tansi2{
+    position: absolute;
+    top: 200vh;
+    left: 47vw;
+    transform: translateX(-50%);
+}
+
+#tansi3{
+    position: absolute;
+    top: 200vh;
+    left: 90vw;
+    transform: translateX(-50%);
+}
+
+#tansi4{
+    position: absolute;
+    top: 300vh;
+    left: 47vw;
+    transform: translateX(-50%);
+}
+
+#tansi5{
+    position: absolute;
+    top: 300vh;
+    left: 90vw;
+    transform: translateX(-50%);
+}
+
+#tansi6{
+    position: absolute;
+    top: 400vh;
+    left: 47vw;
+    transform: translateX(-50%);
+}
+
+#tansi7{
+    position: absolute;
+    top: 500vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+.tan-slider-image {
+    max-width: 70vw;
+    max-height: 80vh;
+}
+
+#cleansedscroll{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 200vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow: scroll;
+    display: none;
+}
+
+#cleansedvideo{
+    padding: 0;
+    margin: 0%;
+    position: absolute;
+    top: 110vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#cleansedname2{
+    margin: 0;
+    padding: 0;
+    font-size: 10em;
+    font-weight: 100;
+    color: white;
+    position: absolute;
+    top: 10vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#cleansedcap {
+    margin: 0;
+    font-size: 2em;
+    font-weight: 100;
+    color: white;
+    position: absolute;
+    top: 40vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#cleansedcap2 {
+    width: 80vw;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 60vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#cleansedcap3 {
+    width: 80vw;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 81vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#homesickscroll{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 750vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow: scroll;
+    display: none;
+}
+
+#homesickname2{
+    margin: 0;
+    padding: 0;
+    font-size: 10em;
+    font-weight: 100;
+    color: white;
+    position: absolute;
+    top: 10vh;
+    left: 50vw;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+#homesickvideo{
+    padding: 0;
+    margin: 0%;
+    position: absolute;
+    top: 220vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+.homesick-slider-items {
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    width: 70vw;
+    background-color:transparent;
+}
+
+.homesick-slider-image {
+    max-width: 70vw;
+    max-height: 80vh;
+}
+
+#homesicksi1{
+    position: absolute;
+    top: 40vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#homesicksi2{
+    position: absolute;
+    top: 70vh;
+    left: 50vw;
+}
+#homesicksi3{
+    position: absolute;
+    top: 130vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#homesickcap{
+    width: 80vw;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 60vh;
+    left: 50vw;
+}
+
+#homesickcap2{
+    width: 30vw;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 160vh;
+    left: 50vw;
+}
+
+#homesickcap3{
+    width: 12vw;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 307vh;
+    left: 17vw;
+}
+
+#homesickcap4{
+    width: 12vw;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 312vh;
+    left: 45vw;
+}
+
+#homesickcap5{
+    width: 12vw;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 320vh;
+    left: 73vw;
+}
+
+#homesickbts{
+    margin: 0;
+    font-size: 2em;
+    font-weight: 100;
+    color: white;
+    position: absolute;
+    top: 394vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+.homesick-slider-item-2 {
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    width: 50vw;
+    background-color:transparent;
+}
+
+.homesick-slider-image-2 {
+    max-width: 50vw;
+    max-height: 50vh;
+}
+
+#homesicksi4{
+    position: absolute;
+    top: 410vh;
+    left: 6vw;
+}
+
+#homesicksi5{
+    position: absolute;
+    top: 410vh;
+    left: 51vw;
+
+}
+
+#homesicksi6{
+    position: absolute;
+    top: 465vh;
+    left: 6vw;
+}
+
+#homesicksi7{
+    position: absolute;
+    top: 465vh;
+    left: 51vw;
+}
+
+#homesicksi8{
+    position: absolute;
+    top: 520vh;
+    left: 6vw;
+}
+
+#homesicksi9{
+    position: absolute;
+    top: 520vh;
+    left: 51vw;
+}
+
+#homesicksi14{
+    position: absolute;
+    top: 520vh;
+    left: 28vw;
+}
+
+#homesicksi15{
+    position: absolute;
+    top: 520vh;
+    left: 74vw;
+}
+
+#homesicksi10{
+    position: absolute;
+    top: 575vh;
+    left: 6vw;
+}
+
+#homesicksi11{
+    position: absolute;
+    top: 575vh;
+    left: 51vw;
+}
+
+#homesicksi18{
+    position: absolute;
+    top: 630vh;
+    left: 6vw;
+}
+
+#homesicksi19{
+    position: absolute;
+    top: 630vh;
+    left: 51vw;
+}
+
+#homesicksi12{
+    position: absolute;
+    top: 685vh;
+    left: 6vw;
+}
+
+#homesicksi13{
+    position: absolute;
+    top: 685vh;
+    left: 51vw;
+}
+
+#homesicksi20{
+    position: absolute;
+    top: 685vh;
+    left: 28vw;
 }
 
 
