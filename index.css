@@ -1216,9 +1216,164 @@ html, body {
     left: 28vw;
 }
 
+#slothscroll{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 830vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow: scroll;
+    display: none;
+}
 
+#slothname2{
+    margin: 0;
+    padding: 0;
+    font-size: 10em;
+    font-weight: 100;
+    color: white;
+    position: absolute;
+    top: 10vh;
+    left: 50vw;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
 
+#slothvideo{
+    padding: 0;
+    margin: 0%;
+    position: absolute;
+    top: 100vh;
+    left: 50vw;
+    transform: translateX(-50%);   
+}
 
+#slothname3 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: 100;
+    color: white;
+    position: absolute;
+    top: 33vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
 
+#slothdefinition {
+    margin: 0;
+    font-size: 2em;
+    font-weight: 100;
+    color: white;
+    position: absolute;
+    top: 45vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
 
+#slothdefinition2 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: 100;
+    color: white;
+    position: absolute;
+    top: 60vh;
+    left: 25vw;
+}
 
+.sloth-slider-items {
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    width: 70vw;
+    background-color:transparent;
+}
+.sloth-slider-image {
+    max-width: 70vw;
+    max-height: 80vh;
+}
+
+#slothsi1{
+    position: absolute;
+    top: 225vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#slothsi2{
+    position: absolute;
+    top: 300vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#slothsi3{
+    position: absolute;
+    top: 390vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#slothsi4{
+    position: absolute;
+    top: 300vh;
+    left: 50vw;
+}
+
+#slothsi5{
+    position: absolute;
+    top: 475vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#slothsi6{
+    position: absolute;
+    top: 560vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#slothsi7{
+    position: absolute;
+    top: 560vh;
+    left: 52vw;
+}
+
+#slothsi8{
+    position: absolute;
+    top: 650vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#slothsi9{
+    position: absolute;
+    top: 650vh;
+    left: 52vw;
+}
+
+#slothsi10{
+    position: absolute;
+    top: 740vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#slothsi11{
+    position: absolute;
+    top: 740vh;
+    left: 52.5vw;
+}
+
+#slothcap1{
+    font-size: 2em;
+    font-weight: 100;
+    color: white;
+    position: absolute;
+    top: 200vh;
+    left: 16vw;
+
+}
